@@ -11,8 +11,10 @@ Note:
 ### Follow Along
 @snapend
 
-@snap[midpoint span-80 text-15 text-center wrap-break]
-[https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop](https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop)
+@snap[midpoint span-100 text-15 text-center]
+[https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop](
+    https://gitpitch.com/
+AdamSmith89/GrafanaPrometheus-Workshop)
 @snapend
 
 ---
