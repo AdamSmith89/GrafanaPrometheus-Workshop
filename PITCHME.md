@@ -35,6 +35,7 @@ Slides can be found here<br>
 @css[text-07](
 - Navigate to **localhost:9090**
 - Create a query for **promhttp_metric_handler_requests_total** and **Execute** it
+<br>
 @img[span-40](assets/img/prometheus-query.png))
 
 ---
