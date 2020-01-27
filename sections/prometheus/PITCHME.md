@@ -2,8 +2,7 @@
 ### Setup Prometheus
 @snapend
 
-@snap[span-100 midpoint text-07]
-- All resources can be found at @css[highlight](S:\Development\DashboardResources)
+@snap[span-200 midpoint text-10]
 - Copy Prometheus to test environment
   - @css[highlight](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
   - @css[highlight](Mac:) linux/prometheus-2.15.2.linux-amd64.tar.gz
@@ -16,7 +15,7 @@
 ### Basic Prometheus Query
 @snapend
 
-@snap[span-100 north text-07]
+@snap[span-100 north text-10]
 <br><br><br><br>
 - Navigate to @css[highlight](localhost:9090)
 - Create a query for @css[highlight](promhttp_metric_handler_requests_total)
@@ -31,7 +30,7 @@
 ### Metrics, Labels and Values
 @snapend
 
-@snap[midpoint span-100 text-07]
+@snap[midpoint span-200 text-10]
 @ul[list-fade-fragments]
 - @css[highlight](Metric:) Describes a general feature of the system being measured<br>&#9632; @css[highlight](promhttp_metric_handler_requests_total){job="prometheus",...}
 - @css[highlight](Labels:) Used to differentiate characteristics of the thing being measured<br>&#9632; promhttp_metric_handler_requests_total{@css[highlight](job="prometheus"),...}
