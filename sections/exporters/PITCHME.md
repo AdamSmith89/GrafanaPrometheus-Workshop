@@ -21,7 +21,7 @@
 - Scroll to the bottom
 @snapend
 @snap[south]
-```plaintext
+```ps
 # HELP sonarqube_measures_bugs Bugs in a project
 # TYPE sonarqube_measures_bugs gauge
 sonarqube_measures_bugs{projectKey="defendpoint-releasestatic"} 139
