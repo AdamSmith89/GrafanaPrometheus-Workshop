@@ -21,11 +21,12 @@ Note:
 @snapend
 
 @snap[span-100 midpoint text-07]
-- All resources can be found at @css[text-gold text-bold](S:\Development\DashboardResources)
+- All resources can be found at @css[highlight](S:\Development\DashboardResources)
 - Copy Prometheus to test environment
   - @css[text-gold text-bold](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
   - @css[text-gold text-bold](Mac:) linux/prometheus-2.15.2.linux-amd64.tar.gz
 - Run @css[text-gold text-bold](prometheus(.exe&#41;)
+  - Prometheus will keep running if there are no errors
 @snapend
 
 ---
@@ -33,11 +34,12 @@ Note:
 ### Basic Prometheus Query
 @snapend
 
-@css[text-07](
+@snap[span-100 midpoint text-07]
 - Navigate to **localhost:9090**
 - Create a query for **promhttp_metric_handler_requests_total** and **Execute** it
 <br>
-@img[span-40](assets/img/prometheus-query.png))
+@img[span-40](assets/img/prometheus-query.png)
+@snapend
 
 ---
 @snap[north span-100]
