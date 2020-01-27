@@ -41,7 +41,7 @@ layout: center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote: "Sooner The Better, But Better Late Than Never"
+footnote: "Prometheus and Grafana"
 
 hightlight: monokai
 

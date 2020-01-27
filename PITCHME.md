@@ -1,19 +1,18 @@
-@snap[text-gold text-20]
+@snap[text-gold text-30]
 Dashboards
 @snapend
-@css[text-white text-italic text-04 fragment](Prometheus and Grafana)
+@css[text-white text-italic text-20](Prometheus and Grafana)
 
 Note:   
 - any notes?
 
 ---
 @snap[north span-100]
-### Follow Along?
+### Follow Along
 @snapend
 
-@snap[midpoint span-100]
-Slides can be found here<br>
-[https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop#/](https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop#/)
+@snap[midpoint span-100 text-20]
+[https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop#/](https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop)
 @snapend
 
 ---
@@ -21,11 +20,12 @@ Slides can be found here<br>
 ### Setup Prometheus
 @snapend
 
-@css[text-07](
+@css[text-05](
+- All resources can be found at **S:\Development\DashboardResources**
 - Copy Prometheus to test environment
-  - **Windows:** S:\Development\DashboardResources\windows\prometheus-2.14.0.windows-amd64.tar.gz
-  - **Mac:** S:\Development\DashboardResources\linux\prometheus-2.15.2.linux-amd64.tar.gz
-- Run **prometheus.exe**)
+  - **Windows:** windows\prometheus-2.14.0.windows-amd64.tar.gz
+  - **Mac:** linux\prometheus-2.15.2.linux-amd64.tar.gz
+- Run **prometheus(.exe)**)
 
 ---
 @snap[north span-100]
