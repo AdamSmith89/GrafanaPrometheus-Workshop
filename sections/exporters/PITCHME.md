@@ -18,9 +18,10 @@
 @snap[span-200 north text-10]
 <br><br>
 - Navigate to @css[highlight](localhost:9091/metrics)
-- Scroll to the bottom
+- Scroll to the bottom to view @css[highlight](metrics)
 @snapend
-@snap[south]
+@snap[midpoint]
+<br><br>
 ```ps
 ...
 # HELP sonarqube_measures_bugs Bugs in a project
