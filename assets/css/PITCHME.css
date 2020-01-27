@@ -11,6 +11,8 @@
 
 .move-right-50 { right: -50px !important }
 
+.wrap { word-wrap: break-word; }
+
 tr:nth-child(even) {
   background-color: #dbdbdb;
 }
