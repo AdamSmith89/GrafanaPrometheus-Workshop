@@ -11,7 +11,7 @@
 
 .move-right-50 { right: -50px !important }
 
-.highlight { color: gold; font-weight: bold;}
+.highlight { color: #E58537 !important; font-weight: bold !important}
 
 tr:nth-child(even) {
   background-color: #dbdbdb;
