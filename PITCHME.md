@@ -12,8 +12,8 @@ Note:
 @snapend
 
 @snap[midpoint span-80 text-15 text-center]
-@css[wrap]
-[https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop](https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop)
+@css[wrap](
+[https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop](https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop))
 @snapend
 
 ---
