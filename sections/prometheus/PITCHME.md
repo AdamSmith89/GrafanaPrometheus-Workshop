@@ -9,7 +9,6 @@
 - Double-extract the @css[highlight](.gz) then @css[highlight](.tar)
 - Run @css[highlight](prometheus(.exe&#41;)
   - Prometheus will keep running if there are no errors
-- Browse to @css[highlight](http://localhost:9090)
 @snapend
 
 ---
@@ -22,7 +21,7 @@
 - Navigate to @css[highlight](localhost:9090)
 - Create a query for @css[highlight](promhttp_metric_handler_requests_total)
 - @css[highlight](Execute) it
-- Refresh @css[highlight](http://localhost:9090) to change value
+- Navigate to @css[highlight]([localhost:9090/metrics]()) to update total requests
 @snapend
 @snap[south span-70]
 @img[](assets/img/prometheus-query.png)
