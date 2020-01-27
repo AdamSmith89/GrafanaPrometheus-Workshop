@@ -6,8 +6,10 @@
 - Copy Prometheus to test environment
   - @css[highlight](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
   - @css[highlight](Mac:) linux/prometheus-2.15.2.linux-amd64.tar.gz
+- Double-extract the @css[highlight](.gz) then @css[highlight](.tar)
 - Run @css[highlight](prometheus(.exe&#41;)
   - Prometheus will keep running if there are no errors
+- Browse to @css[highlight](http://localhost:9090)
 @snapend
 
 ---
@@ -16,12 +18,13 @@
 @snapend
 
 @snap[span-200 north text-10]
-<br><br><br>
+<br><br>
 - Navigate to @css[highlight](localhost:9090)
 - Create a query for @css[highlight](promhttp_metric_handler_requests_total)
 - @css[highlight](Execute) it
+- Refresh @css[highlight](http://localhost:9090) to change value
 @snapend
-@snap[south span-80]
+@snap[south span-70]
 @img[](assets/img/prometheus-query.png)
 @snapend
 

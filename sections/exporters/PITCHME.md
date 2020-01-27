@@ -3,9 +3,9 @@
 @snapend
 
 @snap[span-100 midpoint text-07]
-- Copy Prometheus to test environment
-  - @css[highlight](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
-  - @css[highlight](Mac:) linux/prometheus-2.15.2.linux-amd64.tar.gz
-- Run @css[highlight](prometheus(.exe&#41;)
-  - Prometheus will keep running if there are no errors
+- Copy SonarQube exporter to test environment
+  - @css[highlight](Windows:) windows/prometheus-sonarqube-exporter/
+  - @css[highlight](Mac:) linux/prometheus-sonarqube-exporter/
+- Run @css[highlight](prometheus-sonarqube-exporter(.exe&#41;)
+  - Exporter will keep running if there are no errors
 @snapend
