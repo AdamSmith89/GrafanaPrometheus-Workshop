@@ -45,23 +45,21 @@ Note:
 @snapend
 
 ---
-@snap[midpoint span-100]
+@snap[north span-100]
 ### Metrics, Labels and Values
 @snapend
 
 @css[text-07](
 @ul
-- **Metric:** Describes a general feature of the system being measured
-  - **promhttp_metric_handler_requests_total**{job="prometheus",...}
-- **Labels:** Used to differentiate characteristics of the thing being measured
-  - promhttp_metric_handler_requests_total{**job="prometheus"**,...}
-- **Values:** Result returned by a metric
+- @css[highlight](Metric:) Describes a general feature of the system being measured
+  - @css[highlight](promhttp_metric_handler_requests_total){job="prometheus",...}
+- @css[highlight](Labels:) Used to differentiate characteristics of the thing being measured
+  - promhttp_metric_handler_requests_total{@css[highlight](job="prometheus"),...}
+- @css[highlight](Values:) Result returned by a metric
 @ulend)
 
-@snap[south]
-[Querying Basics](https://prometheus.io/docs/prometheus/latest/querying/basics/)
-|
-[Metric Best Practicses](https://prometheus.io/docs/practices/naming/)
+@snap[south span-100 text-07]
+[Querying Basics](https://prometheus.io/docs/prometheus/latest/querying/basics/)|[Metric Best Practicses](https://prometheus.io/docs/practices/naming/)
 @snapend
 
 Note:
