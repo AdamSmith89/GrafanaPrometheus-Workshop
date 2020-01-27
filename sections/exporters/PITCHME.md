@@ -1,5 +1,5 @@
 @snap[north span-100]
-### Exporters
+### Sonarqube Exporter
 @snapend
 
 @snap[span-200 midpoint text-10]
@@ -50,7 +50,7 @@ globalScrapeTime: 120
 listenOnPort: 9091
 sonarqubeUrl: https://sonarqube.btrusteng.com
 sonarqubeUser: serviceaccount
-sonarqubePassword: @css[highlight](849176324b1ad53ccd5dc67072a79dd92fbb6df7)
+sonarqubePassword: 849176324b1ad53ccd5dc67072a79dd92fbb6df7
 measures:
   projects:
   - "defendpoint-releasestatic"
@@ -72,4 +72,24 @@ measures:
 @[4-6](Connection information)
 @[8-12](Projects to query)
 @[13-19](Metrics to query)
+@snapend
+
+---
+@snap[north span-100]
+### Sonarqube In Prometheus
+@snapend
+
+@snap[span-200 north text-10]
+<br><br>
+- Add a new @css[highlight](job) to Prometheus
+- @css[highlight](Restart) Prometheus
+@snapend
+
+@snap[midpoint]
+<br><br>
+```yaml
+- job_name: 'prometheus'
+  static_configs:
+  - targets: ['localhost:9090']
+```
 @snapend
