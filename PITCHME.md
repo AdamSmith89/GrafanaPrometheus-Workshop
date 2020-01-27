@@ -34,17 +34,18 @@ Note:
 ### Basic Prometheus Query
 @snapend
 
-@snap[span-100 midpoint text-07]
+@snap[span-100 north text-07]
+<br><br><br><br>
 - Navigate to @css[highlight](localhost:9090)
 - Create a query for @css[highlight](promhttp_metric_handler_requests_total)
 - @css[highlight](Execute) it
 @snapend
-@snap[south]
+@snap[south span-80]
 @img[](assets/img/prometheus-query.png)
 @snapend
 
 ---
-@snap[north span-100]
+@snap[midpoint span-100]
 ### Metrics, Labels and Values
 @snapend
 
