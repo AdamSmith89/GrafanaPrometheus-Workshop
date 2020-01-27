@@ -20,12 +20,12 @@ Note:
 ### Setup Prometheus
 @snapend
 
-@snap[span-100 midpoint text-10]
+@snap[span-100 midpoint text-07]
 - All resources can be found at @css[text-gold text-bold](S:\Development\DashboardResources)
 - Copy Prometheus to test environment
-  - @css[text-gold text-bold](Windows:) windows\prometheus-2.14.0.windows-amd64.tar.gz
-  - @css[text-gold text-bold](Mac:) linux\prometheus-2.15.2.linux-amd64.tar.gz
-- Run @css[text-gold text-bold](prometheus)
+  - @css[text-gold text-bold](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
+  - @css[text-gold text-bold](Mac:) linux/prometheus-2.15.2.linux-amd64.tar.gz
+- Run @css[text-gold text-bold](prometheus(.exe))
 @snapend
 
 ---
