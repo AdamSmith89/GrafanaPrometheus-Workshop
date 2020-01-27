@@ -36,9 +36,10 @@ Note:
 
 @snap[span-100 midpoint text-07]
 - Navigate to @css[highlight](localhost:9090)
-- Create a query for @css[highlight](promhttp_metric_handler_requests_total) and @css[highlight](Execute) it
+- Create a query for @css[highlight](promhttp_metric_handler_requests_total)
+- @css[highlight](Execute) it
 <br>
-@img[south span-50](assets/img/prometheus-query.png)
+@img[span-50](assets/img/prometheus-query.png)
 @snapend
 
 ---
