@@ -39,7 +39,7 @@ Note:
 - Create a query for @css[highlight](promhttp_metric_handler_requests_total)
 - @css[highlight](Execute) it
 <br>
-@img[span-50](assets/img/prometheus-query.png)
+@img[south](assets/img/prometheus-query.png)
 @snapend
 
 ---
