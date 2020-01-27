@@ -8,10 +8,11 @@ Note:
 
 ---
 @snap[north span-100]
-### Follow Along
+### Resources
 @snapend
 
 @snap[midpoint span-100 text-15 text-center]
+All resources can be found at @css[highlight](S:\Development\DashboardResources)
 [https://gitpitch.com/AdamSmith89/<wbr>GrafanaPrometheus-Workshop](https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop)
 @snapend
 
