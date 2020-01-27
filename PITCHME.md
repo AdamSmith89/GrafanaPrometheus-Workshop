@@ -52,13 +52,12 @@ Note:
 @snap[midpoint text-07]
 @ul[list-fade-fragments]
 - @css[highlight](Metric:) Describes a general feature of the system being measured<br>@css[highlight](promhttp_metric_handler_requests_total){job="prometheus",...}
-- @css[highlight](Labels:) Used to differentiate characteristics of the thing being measured
-  - promhttp_metric_handler_requests_total{@css[highlight](job="prometheus"),...}
+- @css[highlight](Labels:) Used to differentiate characteristics of the thing being measured<br>promhttp_metric_handler_requests_total{@css[highlight](job="prometheus"),...}
 - @css[highlight](Values:) Result returned by a metric
 @ulend
 @snapend
 
-@snap[south span-100 text-07]
+@snap[south span-100 text-05]
 [Querying Basics](https://prometheus.io/docs/prometheus/latest/querying/basics/) | [Metric Best Practice](https://prometheus.io/docs/practices/naming/)
 @snapend
 
