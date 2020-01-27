@@ -15,8 +15,8 @@
 ### Basic Prometheus Query
 @snapend
 
-@snap[span-100 north text-10]
-<br><br><br><br>
+@snap[span-200 north text-10]
+<br><br><br>
 - Navigate to @css[highlight](localhost:9090)
 - Create a query for @css[highlight](promhttp_metric_handler_requests_total)
 - @css[highlight](Execute) it
@@ -50,7 +50,7 @@ Note:
 ### Prometheus Config
 @snapend
 
-@snap[midpoint]
+@snap[midpoint text-08]
 ```yaml
 global:
   scrape_interval:     15s
