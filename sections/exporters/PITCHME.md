@@ -1,5 +1,5 @@
 @snap[north span-100]
-### Setup Grafana
+### Exporters
 @snapend
 
 @snap[span-100 midpoint text-07]

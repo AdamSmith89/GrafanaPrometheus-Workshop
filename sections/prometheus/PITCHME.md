@@ -50,7 +50,7 @@ Note:
 ### Prometheus Config
 @snapend
 
-@snap[midpoint text-08]
+@snap[midpoint]
 ```yaml
 global:
   scrape_interval:     15s
