@@ -20,7 +20,7 @@ Note:
 ### Setup Prometheus
 @snapend
 
-@snap[span-100 midpoint text-06]
+@snap[span-100 midpoint text-10]
 - All resources can be found at @css[text-gold text-bold](S:\Development\DashboardResources)
 - Copy Prometheus to test environment
   - @css[text-gold text-bold](Windows:) windows\prometheus-2.14.0.windows-amd64.tar.gz
