@@ -28,7 +28,7 @@ theme-override: assets/css/PITCHME.css
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo: assets/img/hacking-96.png
+logo: assets/img/prometheus-grafana.png
 logo-position: top-left
 
 #
