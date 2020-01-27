@@ -12,7 +12,7 @@ Note:
 @snapend
 
 @snap[midpoint span-80 text-15 text-center]
-@box[]([https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop#/](https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop))
+@box[bg-gray]([https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop](https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop))
 @snapend
 
 ---
@@ -25,7 +25,7 @@ Note:
 - Copy Prometheus to test environment
   - **Windows:** windows\prometheus-2.14.0.windows-amd64.tar.gz
   - **Mac:** linux\prometheus-2.15.2.linux-amd64.tar.gz
-- Run **prometheus(.exe)**)
+- Run **prometheus**)
 
 ---
 @snap[north span-100]
