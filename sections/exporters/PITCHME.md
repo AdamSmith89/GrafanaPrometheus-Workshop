@@ -43,7 +43,8 @@ sonarqube_measures_new_bugs{projectKey="defendpoint-releasestatic"} 0
 @snapend
 
 @snap[midpoint]
-```yaml
+<br>
+```ps
 # Defined in seconds
 globalScrapeTime: 120
 listenOnPort: 9091
@@ -67,7 +68,7 @@ measures:
 @snapend
 
 @snap[south span-100]
-@[3](Which port data is published to)
+@[3](Output port)
 @[4-6](Connection information)
 @[8-12](Projects to query)
 @[13-19](Metrics to query)
