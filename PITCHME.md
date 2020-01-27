@@ -38,8 +38,9 @@ Note:
 - Navigate to @css[highlight](localhost:9090)
 - Create a query for @css[highlight](promhttp_metric_handler_requests_total)
 - @css[highlight](Execute) it
-<br>
-@img[south](assets/img/prometheus-query.png)
+@snapend
+@snap[south]
+@img[](assets/img/prometheus-query.png)
 @snapend
 
 ---
