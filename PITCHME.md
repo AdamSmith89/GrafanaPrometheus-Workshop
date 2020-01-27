@@ -69,7 +69,7 @@ Note:
 ### Prometheus Config
 @snapend
 
-@snap[south span-1--]
+@snap[south span-100]
 @[19-23](Jobs define a single endpoint to scrape for data)
 @[26-27](Where the data is gathered from)
 @snapend
