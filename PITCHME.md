@@ -1,7 +1,7 @@
 @snap[text-gold text-20]
 Dashboards
 @snapend
-@css[text-black text-italic text-04 fragment](Prometheus and Grafana)
+@css[text-white text-italic text-04 fragment](Prometheus and Grafana)
 
 Note:   
 - any notes?
@@ -11,8 +11,9 @@ Note:
 ### Follow Along?
 @snapend
 
-@snap[mid-point span-100]
-[Slides](https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop#/)
+@snap[midpoint span-100]
+Slides can be found here<br>
+[https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop#/](https://gitpitch.com/AdamSmith89/GrafanaPrometheus-Workshop#/)
 @snapend
 
 ---
@@ -20,44 +21,53 @@ Note:
 ### Setup Prometheus
 @snapend
 
-@ul
+@css[text-07](
 - Copy Prometheus to test environment
   - **Windows:** S:\Development\DashboardResources\windows\prometheus-2.14.0.windows-amd64.tar.gz
   - **Mac:** S:\Development\DashboardResources\linux\prometheus-2.15.2.linux-amd64.tar.gz
-- Run **prometheus.exe**
-- Navigate to **localhost:9090**
-- Create a query for **promhttp_metric_handler_requests_total** and **Execute** it
-  - Picture?
-@ulend
+- Run **prometheus.exe**)
 
 ---
 @snap[north span-100]
-### Terminology: Metrics, Labels and Values
+### Basic Prometheus Query
 @snapend
 
+@css[text-07](
+- Navigate to **localhost:9090**
+- Create a query for **promhttp_metric_handler_requests_total** and **Execute** it
+@img[span-40](assets/img/prometheus-query.png))
+
+---
+@snap[north span-100]
+### Metrics, Labels and Values
+@snapend
+
+@css[text-07](
 @ul
 - **Metric:** Describes a general feature of the system being measured
-  - code snippet highlighting metric name
+  - **promhttp_metric_handler_requests_total**{job="prometheus",...}
 - **Labels:** Used to differentiate characteristics of the thing being measured
-  - code snippet highlighting label
+  - promhttp_metric_handler_requests_total{**job="prometheus"**,...}
 - **Values:** Result returned by a metric
-@ulend
+@ulend)
 
+@snap[south]
 [Querying Basics](https://prometheus.io/docs/prometheus/latest/querying/basics/)
-<br>
+|
 [Metric Best Practicses](https://prometheus.io/docs/practices/naming/)
+@snapend
 
 Note:
 - Different jobs in Prometheus example; e.g. job="vsts" or job="sonarqube"
----
+
+---?code=assets/code/prometheus.yml&lang=yaml
 @snap[north span-100]
 ### Prometheus Config
 @snapend
 
-@snap[mid-point]
-So why did that work?
-
-- config code snippet highlighting the different bits
+@snap[south span-1--]
+@[19-23](Jobs define a single endpoint to scrape for data)
+@[26-27](Where the data is gathered from)
 @snapend
 
 <!-- @snap[west fragment]
