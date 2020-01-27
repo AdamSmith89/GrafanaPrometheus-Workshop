@@ -13,7 +13,7 @@ Note:
 
 @snap[midpoint span-100 text-10 text-center]
 All resources can be found at @css[highlight](S:\Development\DashboardResources)
-Follow along at @css[highlight](https://gitpitch.com/AdamSmith89/<wbr>GrafanaPrometheus-Workshop)
+Follow along at @css[highlight]([https://gitpitch.com/AdamSmith89/<wbr>GrafanaPrometheus-Workshop]())
 @snapend
 
 ---?include=sections/prometheus/PITCHME.md
