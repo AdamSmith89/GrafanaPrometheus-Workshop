@@ -51,7 +51,6 @@ Note:
 
 @snap[midpoint text-07]
 @ul[list-fade-fragments]
-@fragment
 - @css[highlight](Metric:) Describes a general feature of the system being measured
   - @css[highlight](promhttp_metric_handler_requests_total){job="prometheus",...}
 - @css[highlight](Labels:) Used to differentiate characteristics of the thing being measured
