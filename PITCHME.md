@@ -64,9 +64,13 @@ Note:
 Note:
 - Different jobs in Prometheus example; e.g. job="vsts" or job="sonarqube"
 
----?code=assets/code/prometheus.yml&lang=yaml&size=50%
+---
 @snap[north span-100]
 ### Prometheus Config
+@snapend
+
+@snap[midpoint]
+@code[assets/code/prometheus.yml]
 @snapend
 
 @snap[south span-100]
