@@ -88,8 +88,12 @@ measures:
 @snap[midpoint]
 <br><br>
 ```yaml
-- job_name: 'prometheus'
+- job_name: 'sonarqube'
   static_configs:
-  - targets: ['localhost:9090']
+  - targets: ['localhost:9091']
 ```
+@snapend
+
+@snap[south span-100]
+@[3](Ensure port is the same port configured in the exporter)
 @snapend
