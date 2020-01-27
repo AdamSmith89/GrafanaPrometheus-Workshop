@@ -49,7 +49,7 @@ Note:
 ### Metrics, Labels and Values
 @snapend
 
-@span[midpoint text-07]
+@snap[midpoint text-07]
 @ul
 - @css[highlight](Metric:) Describes a general feature of the system being measured
   - @css[highlight](promhttp_metric_handler_requests_total){job="prometheus",...}
