@@ -25,7 +25,7 @@ Note:
 - Copy Prometheus to test environment
   - @css[text-gold text-bold](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
   - @css[text-gold text-bold](Mac:) linux/prometheus-2.15.2.linux-amd64.tar.gz
-- Run @css[text-gold text-bold](prometheus(.exe))
+- Run @css[text-gold text-bold](prometheus\(.exe\))
 @snapend
 
 ---
