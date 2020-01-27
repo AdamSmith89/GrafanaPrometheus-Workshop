@@ -94,6 +94,11 @@ scrape_configs:
 @[14-15](Where the data is gathered from)
 @snapend
 
+---
+@snap[]
+some text
+@snapend
+
 <!-- @snap[west fragment]
 @fa[play fa-4x]
 @snapend -->
