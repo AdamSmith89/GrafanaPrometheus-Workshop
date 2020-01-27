@@ -70,12 +70,28 @@ Note:
 @snapend
 
 @snap[midpoint]
-@code[assets/code/prometheus.yml]
+```yaml
+global:
+  scrape_interval:     15s
+  evaluation_interval: 15s
+
+alerting:
+  alertmanagers:
+  - static_configs:
+    - targets:
+
+rule_files:
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+    - targets: ['localhost:9090']
+```
 @snapend
 
 @snap[south span-100]
-@[19-23](Jobs define a single endpoint to scrape for data)
-@[26-27](Where the data is gathered from)
+@[12-13](Jobs define a single endpoint to scrape for data)
+@[14-15](Where the data is gathered from)
 @snapend
 
 <!-- @snap[west fragment]
