@@ -49,7 +49,7 @@ Note:
 
 ---
 @snap[north span-100]
-### Prometheus Config
+### Prometheus Configuration
 @snapend
 
 @snap[midpoint]

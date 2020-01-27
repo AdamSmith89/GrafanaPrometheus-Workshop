@@ -12,7 +12,7 @@
 
 ---
 @snap[north span-100]
-### Basic Prometheus Query
+### Sonarqube Metrics
 @snapend
 
 @snap[span-200 north text-10]
@@ -35,4 +35,40 @@ sonarqube_measures_codesmells{projectKey="defendpoint-releasestatic"} 5203
 sonarqube_measures_new_bugs{projectKey="defendpoint-releasestatic"} 0
 ...
 ```
+@snapend
+
+---
+@snap[north span-100]
+### Sonarqube Configuration
+@snapend
+
+@snap[midpoint]
+```yaml
+# Defined in seconds
+globalScrapeTime: 120
+listenOnPort: 9091
+sonarqubeUrl: https://sonarqube.btrusteng.com
+sonarqubeUser: serviceaccount
+sonarqubePassword: 849176324b1ad53ccd5dc67072a79dd92fbb6df7
+measures:
+  projects:
+  - "defendpoint-releasestatic"
+#  - "mac-client"
+#  - "Avecto-Data-EventSimulator"
+#  - "pmc-saas-portal"
+  metrics:
+  - bugs
+  - new_bugs
+  - code_smells
+  - new_code_smells
+  - vulnerabilities
+  - new_vulnerabilities
+```
+@snapend
+
+@snap[south span-100]
+@[3](Which port data is published to)
+@[4-6](Connection information)
+@[8-12](Projects to query)
+@[13-19](Metrics to query)
 @snapend
