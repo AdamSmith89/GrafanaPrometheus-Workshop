@@ -50,7 +50,7 @@ globalScrapeTime: 120
 listenOnPort: 9091
 sonarqubeUrl: https://sonarqube.btrusteng.com
 sonarqubeUser: serviceaccount
-sonarqubePassword: 849176324b1ad53ccd5dc67072a79dd92fbb6df7
+sonarqubePassword: @css[highlight](849176324b1ad53ccd5dc67072a79dd92fbb6df7)
 measures:
   projects:
   - "defendpoint-releasestatic"
