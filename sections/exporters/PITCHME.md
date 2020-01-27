@@ -44,7 +44,7 @@ sonarqube_measures_new_bugs{projectKey="defendpoint-releasestatic"} 0
 
 @snap[midpoint]
 <br>
-```ps
+```yaml
 # Defined in seconds
 globalScrapeTime: 120
 listenOnPort: 9091
