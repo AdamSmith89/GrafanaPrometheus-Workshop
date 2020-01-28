@@ -54,11 +54,8 @@
 @snap[span-100 midpoint text-09]
 - On Dashboard select @css[hl-westside](Add panel) (top-right)
 - Select @css[hl-westside](Choose Visualization)
-- Choose @css[hl-westside](Singlestat)
-- Change @css[hl-westside](Show) to @css[hl-westside](Current)
+- Choose @css[hl-westside](Singlestat) and change @css[hl-westside](Show) to @css[hl-westside](Current)
 - Switch to @css[hl-westside](Queries) (left)
 - Use any @css[hl-westside](Sonarqube) query from earlier
-- Filter query; @css[hl-westside](job): prometheus, @css[hl-westside](code): 200
-- Refresh @css[hl-westside](localhost:9090/metrics) to update
 - Use @css[hl-westside](Go Back) button to see panel on dashboard
 @snapend
