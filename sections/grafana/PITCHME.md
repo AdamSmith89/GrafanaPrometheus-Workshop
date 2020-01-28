@@ -20,11 +20,14 @@
 @snapend
 
 @snap[span-100 midpoint text-09]
-<br><br>
 - Navigate to @css[hl-westside](localhost:3000)
 - @css[hl-westside](User): admin, @css[hl-westside](Pass): admin
 - Choose @css[hl-westside](Add data source)
 - @css[hl-westside](Select) Prometheus
 - Add @css[hl-westside](http://localhost:9090) as the @css[hl-westside](URL)
 - Press @css[hl-westside](Save & Test)
+@snapend
+
+@snap[south span-100]
+@img[](assets/img/grafana-datasource-working.png)
 @snapend
