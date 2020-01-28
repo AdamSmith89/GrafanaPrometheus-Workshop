@@ -24,7 +24,7 @@
 - Separately navigate to @css[highlight]([localhost:9090/metrics]())
 - @css[highlight](Refresh) to update query total
 @snapend
-@snap[south span-60]
+@snap[south span-70 move-down-10]
 @img[](assets/img/prometheus-query.png)
 @snapend
 

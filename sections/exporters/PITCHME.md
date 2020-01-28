@@ -80,7 +80,7 @@ measures:
 @snapend
 
 @snap[span-100 north text-09]
-<br><br>
+<br><br><br>
 - Add a new @css[highlight](job) to Prometheus
 - @css[highlight](Restart) Prometheus
 @snapend
@@ -104,7 +104,7 @@ measures:
 @snapend
 
 @snap[span-100 north text-09]
-<br><br>
+<br><br><br>
 - Navigate back to Prometheus (@css[highlight](localhost:9090))
 - Create a query for @css[highlight](sonarqube_measures_bugs)
 - @css[highlight](Execute) it
