@@ -35,12 +35,8 @@
 
 @snap[midpoint span-100 text-09]
 @ul[list-fade-fragments]
-- @css[highlight](Metric:) General feature of the system being measured<br>&#9632; @css[highlight](promhttp_metric_handler_requests_total)<br>
-@css[text-indent]({)job="prometheus",...}
-- @css[highlight](Labels:) Differentiates characteristics of the metric<br>
-@css[text-indent](&#9632;) promhttp_metric_handler_requests_total<br>
-@css[text-indent]({)@css[highlight](job="prometheus"),...}<br>
-@css[text-indent]({)@css[highlight](job="sonarqube"),...}
+- @css[highlight](Metric:) General feature of the system being measured<br>&#9632; @css[highlight](promhttp_metric_handler_requests_total)<br>@css[text-indent]({)job="prometheus",...}
+- @css[highlight](Labels:) Differentiates characteristics of the metric<br>@css[text-indent](&#9632;) promhttp_metric_handler_requests_total<br>@css[text-indent]({)@css[highlight](job="prometheus"),...}<br>@css[text-indent]({)@css[highlight](job="sonarqube"),...}
 - @css[highlight](Values:) Result returned by a metric
 @ulend
 @snapend
