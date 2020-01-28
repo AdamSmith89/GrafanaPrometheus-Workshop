@@ -49,7 +49,7 @@
 Note:
 - Different jobs in Prometheus example; e.g. job="vsts" or job="sonarqube"
 
----
+---?color=#253746
 @snap[north span-100]
 ### Prometheus Configuration
 @snapend
