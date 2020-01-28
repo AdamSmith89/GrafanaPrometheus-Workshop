@@ -12,8 +12,8 @@ Note:
 @snapend
 
 @snap[midpoint span-100 text-10]
-Resources: @css[highlight](S:\Development\DashboardResources)
-Slides: @css[highlight]([https://gitpitch.com/AdamSmith89/<wbr>GrafanaPrometheus-Workshop]())
+Resources: @css[hl-westside](S:\Development\DashboardResources)
+Slides: @css[hl-westside]([https://gitpitch.com/AdamSmith89/<wbr>GrafanaPrometheus-Workshop]())
 @snapend
 
 ---?include=sections/prometheus/PITCHME.md

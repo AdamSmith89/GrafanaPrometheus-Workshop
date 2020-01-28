@@ -4,10 +4,10 @@
 
 @snap[span-100 midpoint text-09]
 - Copy SonarQube exporter to test environment
-  - @css[highlight](Windows:) windows/prometheus-sonarqube-exporter/
-  - @css[highlight](Mac:) darwin/prometheus-sonarqube-exporter/
-  - @css[highlight](Linux:) linux/prometheus-sonarqube-exporter/
-- Run @css[highlight](prometheus-sonarqube-exporter(.exe&#41;)
+  - @css[hl-westside](Windows:) windows/prometheus-sonarqube-exporter/
+  - @css[hl-westside](Mac:) darwin/prometheus-sonarqube-exporter/
+  - @css[hl-westside](Linux:) linux/prometheus-sonarqube-exporter/
+- Run @css[hl-westside](prometheus-sonarqube-exporter(.exe&#41;)
   - Exporter will keep running if there are no errors
 @snapend
 
@@ -18,8 +18,8 @@
 
 @snap[span-100 north text-09]
 <br><br>
-- Navigate to @css[highlight](localhost:9091/metrics)
-- Scroll to the bottom to view @css[highlight](metrics)
+- Navigate to @css[hl-westside](localhost:9091/metrics)
+- Scroll to the bottom to view @css[hl-westside](metrics)
 @snapend
 @snap[midpoint span-110]
 <br><br>
@@ -82,8 +82,8 @@ measures:
 
 @snap[span-100 north text-09]
 <br><br><br>
-- Add a new @css[highlight](job) to Prometheus
-- @css[highlight](Restart) Prometheus
+- Add a new @css[hl-westside](job) to Prometheus
+- @css[hl-westside](Restart) Prometheus
 @snapend
 
 @snap[midpoint]
@@ -106,9 +106,9 @@ measures:
 
 @snap[span-100 north text-09]
 <br><br><br>
-- Navigate back to Prometheus (@css[highlight](localhost:9090))
-- Create a query for @css[highlight](sonarqube_measures_bugs)
-- @css[highlight](Execute) it
+- Navigate back to Prometheus (@css[hl-westside](localhost:9090))
+- Create a query for @css[hl-westside](sonarqube_measures_bugs)
+- @css[hl-westside](Execute) it
   - May take a minute due to scrape intervals
 @snapend
 
@@ -122,10 +122,10 @@ measures:
 @snapend
 
 @snap[midpoint span-100]
-- @css[highlight](5 minutes) to play with Sonarqube metrics
+- @css[hl-westside](5 minutes) to play with Sonarqube metrics
 - Ideas;
-  - Track more @css[highlight](projects)
-  - Single metric for @css[highlight](bugs) and @css[highlight](code smells)
+  - Track more @css[hl-westside](projects)
+  - Single metric for @css[hl-westside](bugs) and @css[hl-westside](code smells)
 @snapend
 
 @snap[south span-100 text-05]

@@ -3,13 +3,13 @@
 @snapend
 
 @snap[span-100 midpoint text-09]
-- @css[highlight](Windows:)
+- @css[hl-westside](Windows:)
   - Copy and Extract windows/grafana-6.5.1.windows-amd64.zip
-- @css[highlight](Mac:)
+- @css[hl-westside](Mac:)
   - brew update
-  - brew install grafana
-- @css[highlight](Linux:)
+  - brew @css[hl-alizarin](install) grafana
+- @css[hl-westside](Linux:)
   - Copy and Extract linux/grafana-6.5.2.linux-amd64.tar.gz
-- Run @css[highlight](bin/grafana-server(.exe&#41;)
+- Run @css[hl-westside](bin/grafana-server(.exe&#41;)
   - Prometheus will keep running if there are no errors
 @snapend

@@ -1,6 +1,10 @@
+/* Movement helpers */
 .move-down-10 { bottom: -10px !important }
-.highlight { color: #E58537 !important; font-weight: bold !important}
 .padding-left-1 { padding-left: 1em !important }
+
+/* Custom highlights */
+.hl-westside { color: #E58537 !important; font-weight: bold !important}
+.hl-alizarin { color: #E53740 !important; font-weight: bold !important}
 
 /*Use sparingly as any spans over 100% can cause scaling issues on different screen sizes*/
 .span-110 { width: 110% !important }

@@ -4,11 +4,11 @@
 
 @snap[span-100 midpoint text-09]
 - Copy Prometheus to test environment
-  - @css[highlight](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
-  - @css[highlight](Mac:) darwin/prometheus-2.15.2.darwin-amd64.tar.gz
-  - @css[highlight](Linux:) darwin/prometheus-2.15.2.linux-amd64.tar.gz
-- Extract the @css[highlight](.gz) then the @css[highlight](.tar)
-- Run @css[highlight](prometheus(.exe&#41;)
+  - @css[hl-westside](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
+  - @css[hl-westside](Mac:) darwin/prometheus-2.15.2.darwin-amd64.tar.gz
+  - @css[hl-westside](Linux:) darwin/prometheus-2.15.2.linux-amd64.tar.gz
+- Extract the @css[hl-westside](.gz) then the @css[hl-westside](.tar)
+- Run @css[hl-westside](prometheus(.exe&#41;)
   - Prometheus will keep running if there are no errors
 @snapend
 
@@ -19,11 +19,11 @@
 
 @snap[span-100 north text-09]
 <br><br>
-- Navigate to @css[highlight](localhost:9090)
-- Create a query for @css[highlight](promhttp_metric_handler_requests_total)
-- @css[highlight](Execute) it
-- Separately navigate to @css[highlight]([localhost:9090/metrics]())
-- @css[highlight](Refresh) to update query total
+- Navigate to @css[hl-westside](localhost:9090)
+- Create a query for @css[hl-westside](promhttp_metric_handler_requests_total)
+- @css[hl-westside](Execute) it
+- Separately navigate to @css[hl-westside]([localhost:9090/metrics]())
+- @css[hl-westside](Refresh) to update query total
 @snapend
 @snap[south span-70 move-down-10]
 @img[](assets/img/prometheus-query.png)
@@ -36,9 +36,9 @@
 
 @snap[midpoint span-100 text-09]
 @ul[list-fade-fragments]
-- @css[highlight](Metric:) General feature of the system being measured<br>&#9632; @css[highlight](promhttp_metric_handler_requests_total)<br>@css[padding-left-1]({)job="prometheus",...}
-- @css[highlight](Labels:) Differentiates characteristics of the metric<br>&#9632; promhttp_metric_handler_requests_total<br>@css[padding-left-1]({)@css[highlight](job="prometheus"),...}<br>@css[padding-left-1]({)@css[highlight](job="sonarqube"),...}
-- @css[highlight](Values:) Result returned by a metric
+- @css[hl-westside](Metric:) General feature of the system being measured<br>&#9632; @css[hl-westside](promhttp_metric_handler_requests_total)<br>@css[padding-left-1]({)job="prometheus",...}
+- @css[hl-westside](Labels:) Differentiates characteristics of the metric<br>&#9632; promhttp_metric_handler_requests_total<br>@css[padding-left-1]({)@css[hl-westside](job="prometheus"),...}<br>@css[padding-left-1]({)@css[hl-westside](job="sonarqube"),...}
+- @css[hl-westside](Values:) Result returned by a metric
 @ulend
 @snapend
 
