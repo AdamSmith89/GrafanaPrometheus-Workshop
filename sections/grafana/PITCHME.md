@@ -11,5 +11,12 @@
 - @css[hl-westside](Linux:)
   - Copy and Extract linux/grafana-6.5.2.linux-amd64.tar.gz
 - Run @css[hl-westside](bin/grafana-server(.exe&#41;)
-  - Prometheus will keep running if there are no errors
+  - Grafana will keep running if there are no errors
+- Navigate to @css[hl-westside](localhost:3000)
+    - @css[hl-westside](User): admin, @css[hl-westside](Pass): admin
+@snapend
+
+---
+@snap[north span-100]
+### Prometheus In Grafana
 @snapend
