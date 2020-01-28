@@ -38,7 +38,7 @@
 @snapend
 
 @snap[span-100 midpoint text-09]
-- Navigate @css[hl-westside](Home) (@css[hl-westside](localhost:3000&#41;)
+- Navigate @css[hl-westside](Home) (@css[hl-westside](localhost:3000)&#41;
 - Select @css[hl-westside](New dashboard) then @css[hl-westside](Add Query)
 - Enter @css[hl-westside](promhttp_metric_handler_requests_total) as the @css[hl-westside](query)
 - Filter query; @css[hl-westside](job): prometheus, @css[hl-westside](code): 200
