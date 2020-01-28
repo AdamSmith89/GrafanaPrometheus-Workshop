@@ -6,6 +6,7 @@
 - Copy SonarQube exporter to test environment
   - @css[highlight](Windows:) windows/prometheus-sonarqube-exporter/
   - @css[highlight](Mac:) darwin/prometheus-sonarqube-exporter/
+  - @css[highlight](Linux:) linux/prometheus-sonarqube-exporter/
 - Run @css[highlight](prometheus-sonarqube-exporter(.exe&#41;)
   - Exporter will keep running if there are no errors
 @snapend
@@ -121,7 +122,7 @@ measures:
 @snapend
 
 @snap[midpoint span-100]
-- 5 minutes to play with Sonarqube metrics
+- @css[highlight](5 minutes) to play with Sonarqube metrics
 - Ideas;
   - Track more @css[highlight](projects)
   - Single metric for @css[highlight](bugs) and @css[highlight](code smells)

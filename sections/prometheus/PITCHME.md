@@ -6,6 +6,7 @@
 - Copy Prometheus to test environment
   - @css[highlight](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
   - @css[highlight](Mac:) darwin/prometheus-2.15.2.darwin-amd64.tar.gz
+  - @css[highlight](Linux:) darwin/prometheus-2.15.2.linux-amd64.tar.gz
 - Extract the @css[highlight](.gz) then the @css[highlight](.tar)
 - Run @css[highlight](prometheus(.exe&#41;)
   - Prometheus will keep running if there are no errors
