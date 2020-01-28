@@ -19,7 +19,7 @@
 ### Prometheus In Grafana
 @snapend
 
-@snap[span-100 north text-09]
+@snap[span-100 midpoint text-09]
 <br><br>
 - Navigate to @css[hl-westside](localhost:3000)
 - @css[hl-westside](User): admin, @css[hl-westside](Pass): admin
