@@ -55,6 +55,6 @@ published: true
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title: "Intro to Threat Modelling"
-description: "Why should we do Threat Modelling and How do we do it?"
-thumbnail: https://gitpitch.com/gpimg/tutorial-thumb.png
+title: "Dashbords"
+description: "Introduction to Prometheus & Grafana"
+thumbnail: assets/img/prometheus-grafana.png
