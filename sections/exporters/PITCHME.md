@@ -108,8 +108,28 @@ measures:
 - Navigate back to Prometheus (@css[highlight](localhost:9090))
 - Create a query for @css[highlight](sonarqube_measures_bugs)
 - @css[highlight](Execute) it
+  - May take a minute due to scrape intervals
 @snapend
 
 @snap[south span-70]
 @img[](assets/img/sonarqube-query.png)
 @snapend
+
+---
+@snap[north span-100]
+### PromQL
+@snapend
+
+@snap[midpoint span-100]
+- 5 minutes to play with Sonarqube metrics
+- Ideas;
+  - Track more @css[highlight](projects)
+  - Single metric for @css[highlight](bugs) and @css[highlight](code smells)
+@snapend
+
+@snap[south span-100 text-05]
+[Query Examples](https://prometheus.io/docs/prometheus/latest/querying/examples/)
+@snapend
+
+Note:
+- Total bugs across projects is a good one but the sum function has to be used as the metric labels need to be the same for the basic + operator.
