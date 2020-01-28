@@ -2,10 +2,10 @@
 ### Sonarqube Exporter
 @snapend
 
-@snap[span-200 midpoint text-10]
+@snap[span-100 midpoint text-09]
 - Copy SonarQube exporter to test environment
   - @css[highlight](Windows:) windows/prometheus-sonarqube-exporter/
-  - @css[highlight](Mac:) macos-darwin-amd64/prometheus-sonarqube-exporter/
+  - @css[highlight](Mac:) darwin/prometheus-sonarqube-exporter/
 - Run @css[highlight](prometheus-sonarqube-exporter(.exe&#41;)
   - Exporter will keep running if there are no errors
 @snapend
@@ -15,7 +15,7 @@
 ### Sonarqube Metrics
 @snapend
 
-@snap[span-200 north text-10]
+@snap[span-100 north text-09]
 <br><br>
 - Navigate to @css[highlight](localhost:9091/metrics)
 - Scroll to the bottom to view @css[highlight](metrics)
@@ -79,7 +79,7 @@ measures:
 ### Sonarqube In Prometheus
 @snapend
 
-@snap[span-200 north text-10]
+@snap[span-100 north text-09]
 <br><br>
 - Add a new @css[highlight](job) to Prometheus
 - @css[highlight](Restart) Prometheus
@@ -103,7 +103,7 @@ measures:
 ### Sonarqube In Prometheus
 @snapend
 
-@snap[span-200 north text-10]
+@snap[span-100 north text-09]
 <br><br>
 - Navigate back to Prometheus (@css[highlight](localhost:9090))
 - Create a query for @css[highlight](sonarqube_measures_bugs)
