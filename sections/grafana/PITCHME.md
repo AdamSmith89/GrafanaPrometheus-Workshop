@@ -27,8 +27,3 @@
 @img[](assets/img/grafana-add-prometheus-url.png)
 @img[](assets/img/grafana-add-prometheus-save.png)
 @snapend
-
-
-<!-- @snap[south span-70]
-@img[](assets/img/grafana-add-datasource.png)
-@snapend -->
