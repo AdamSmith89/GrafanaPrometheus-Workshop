@@ -16,7 +16,8 @@ theme-code: ["Fira Code"]
 theme-controls: ["#C0C0C0"]
 theme-margins: ["0", "15px"]
 
-highlight: ir-black
+#highlight: ir-black
+highligh: mono- blue
 
 #
 # Theme-Override Setting
