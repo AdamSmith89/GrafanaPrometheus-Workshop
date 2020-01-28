@@ -48,9 +48,9 @@ sonarqube_measures_new_bugs{projectKey="defendpoint-releasestatic"} 0
 # Defined in seconds
 globalScrapeTime: 120
 listenOnPort: 9091
-sonarqubeUrl: https://sonarqube.btrusteng.com
-sonarqubeUser: serviceaccount
-sonarqubePassword: 849176324b1ad53ccd5dc67072a79dd92fbb6df7
+sonarqubeUrl: ...
+sonarqubeUser: ...
+sonarqubePassword: ...
 measures:
   projects:
   - "defendpoint-releasestatic"
