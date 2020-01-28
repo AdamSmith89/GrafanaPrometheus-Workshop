@@ -57,6 +57,7 @@
 - Choose @css[hl-westside](Singlestat) and change @css[hl-westside](Show) to @css[hl-westside](Current)
 - Switch to @css[hl-westside](Queries) (left)
 - Use any @css[hl-westside](Sonarqube) query from earlier
+- Enable the @css[hl-westside](Instant) setting
 - Use @css[hl-westside](Go Back) button to see panel on dashboard
 @snapend
 
