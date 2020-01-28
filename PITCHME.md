@@ -25,10 +25,14 @@ Slides: @css[hl-westside]([https://gitpitch.com/AdamSmith89/<wbr>GrafanaPromethe
 ### Useful Links
 @snapend
 
+[Windows Client Dashboard](http://prometheus01.btrusteng.com/d/Vw8tZ7OZz/main?orgId=1&refresh=1m)<br>
 [Metric Best Practice](https://prometheus.io/docs/practices/naming/)<br>
 [Querying Basics](https://prometheus.io/docs/prometheus/latest/querying/basics/)<br>
 [Querying Functions](https://prometheus.io/docs/prometheus/latest/querying/functions/)<br>
 [Query Examples](https://prometheus.io/docs/prometheus/latest/querying/examples/)<br>
 [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/)<br>
 [Grafana Getting Started](https://grafana.com/docs/grafana/latest/guides/getting_started/)<br>
-[Windows Client Dashboard](http://prometheus01.btrusteng.com/d/Vw8tZ7OZz/main?orgId=1&refresh=1m)
+[Wizzy (Grafana -> Git)](https://grafana-wizzy.com/home/)
+
+Note:
+- Show the Windows Client dashboard and explain what we've got

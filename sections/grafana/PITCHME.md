@@ -66,7 +66,7 @@
 @snapend
 
 @snap[span-100 midpoint text-09]
-- @css[hl-westside](10 minutes) to play with panels
+- @css[hl-westside](Remaining time) to play with panels
 - Ideas;
   - Add @css[hl-westside](Thresholds) to Sonarqube panel
   - Use @css[hl-westside](Value Mappings) on Sonarqube panel
