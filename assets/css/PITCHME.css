@@ -6,10 +6,8 @@
   box-shadow:0 14px 20px 0 rgba(0,0,0,0.2),0 10px 24px 0 rgba(0,0,0,0.19) !important;
 }
 
-.span-120 { width: 120% !important }
-.span-200 { width: 200% !important }
-
 .move-right-50 { right: -50px !important }
+.move-down-50 { bottom: -50px !important }
 
 .highlight { color: #E58537 !important; font-weight: bold !important}
 

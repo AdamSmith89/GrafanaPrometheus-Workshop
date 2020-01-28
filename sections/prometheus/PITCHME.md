@@ -2,11 +2,11 @@
 ### Setup Prometheus
 @snapend
 
-@snap[span-200 midpoint text-10]
+@snap[span-100 midpoint text-09]
 - Copy Prometheus to test environment
   - @css[highlight](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
-  - @css[highlight](Mac:) macos-darwin-amd64/prometheus-2.15.2.darwin-amd64.tar.gz
-- Double-extract the @css[highlight](.gz) then @css[highlight](.tar)
+  - @css[highlight](Mac:) darwin/prometheus-2.15.2.darwin-amd64.tar.gz
+- Extract the @css[highlight](.gz) then the @css[highlight](.tar)
 - Run @css[highlight](prometheus(.exe&#41;)
   - Prometheus will keep running if there are no errors
 @snapend
@@ -24,7 +24,7 @@
 - Separately navigate to @css[highlight]([localhost:9090/metrics]())
 - @css[highlight](Refresh) to update query total
 @snapend
-@snap[south span-70]
+@snap[south span-60]
 @img[](assets/img/prometheus-query.png)
 @snapend
 
