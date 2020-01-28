@@ -40,8 +40,8 @@
 @snap[span-100 midpoint text-09]
 - Navigate @css[hl-westside](Home) (@css[hl-westside](localhost:3000)&#41;
 - Select @css[hl-westside](New dashboard) then @css[hl-westside](Add Query)
-- Enter @css[hl-westside](promhttp_metric_handler_requests_total) as the @css[hl-westside](query)
+- Use @css[hl-westside](promhttp_metric_handler_requests_total) for @css[hl-westside](query)
 - Filter query; @css[hl-westside](job): prometheus, @css[hl-westside](code): 200
-- Refresh @css[hl-westside]([localhost:9090/metrics]()) to update
+- Refresh @css[hl-westside](localhost:9090/metrics) to update
 - Use @css[hl-westside](Go Back) button to see panel on dashboard
 @snapend
