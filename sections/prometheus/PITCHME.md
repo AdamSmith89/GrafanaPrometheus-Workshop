@@ -74,5 +74,5 @@ scrape_configs:
 
 @snap[south span-100]
 @[12-13](Jobs define a single endpoint to scrape for data)
-@[14-15](Where the data is gathered from)
+@[14-15](Targets define Where the data is gathered from)
 @snapend
