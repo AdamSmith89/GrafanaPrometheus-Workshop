@@ -97,3 +97,19 @@ measures:
 @snap[south span-100]
 @[3](Ensure port is the same port configured in the exporter)
 @snapend
+
+---
+@snap[north span-100]
+### Sonarqube In Prometheus
+@snapend
+
+@snap[span-200 north text-10]
+<br><br>
+- Navigate back to Prometheus (@css[highlight](localhost:9090))
+- Create a query for @css[highlight](sonarqube_measures_bugs)
+- @css[highlight](Execute) it
+@snapend
+
+@snap[south span-70]
+@img[](assets/img/sonarqube-query.png)
+@snapend
