@@ -71,7 +71,7 @@
   - Add @css[hl-westside](Thresholds) to Sonarqube panel
   - Use @css[hl-westside](Value Mappings) on Sonarqube panel
   - Apply a @css[hl-westside](rate) function to Prometheus panel
-@spanend
+@snapend
 
 @snap[south span-100 text-05]
 [Querying Functions](https://prometheus.io/docs/prometheus/latest/querying/functions/)
