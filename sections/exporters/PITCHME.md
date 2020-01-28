@@ -20,7 +20,7 @@
 - Navigate to @css[highlight](localhost:9091/metrics)
 - Scroll to the bottom to view @css[highlight](metrics)
 @snapend
-@snap[midpoint]
+@snap[midpoint no-margin]
 <br><br>
 ```ps
 ...
