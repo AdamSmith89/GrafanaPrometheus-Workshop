@@ -24,9 +24,13 @@
 - @css[hl-westside](User): admin, @css[hl-westside](Pass): admin
 @snapend
 
-@snap[midpoint]
+@snap[west]
 @img[](assets/img/grafana-add-datasource.png)
+@snapend
+@snap[midpoint]
 @img[](assets/img/grafana-add-prometheus.png)
 @img[](assets/img/grafana-add-prometheus-url.png)
+@snapend
+@snap[east]
 @img[](assets/img/grafana-add-prometheus-save.png)
 @snapend
