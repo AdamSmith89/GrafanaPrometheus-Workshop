@@ -12,11 +12,18 @@
   - Copy and Extract linux/grafana-6.5.2.linux-amd64.tar.gz
 - Run @css[hl-westside](bin/grafana-server(.exe&#41;)
   - Grafana will keep running if there are no errors
-- Navigate to @css[hl-westside](localhost:3000)
-    - @css[hl-westside](User): admin, @css[hl-westside](Pass): admin
 @snapend
 
 ---
 @snap[north span-100]
 ### Prometheus In Grafana
+@snapend
+
+@snap[span-100 midpoint text-09]
+- Navigate to @css[hl-westside](localhost:3000)
+- @css[hl-westside](User): admin, @css[hl-westside](Pass): admin
+@snapend
+
+@snap[south span-70]
+@img[](assets/img/grafana-add-dashboard.png)
 @snapend
