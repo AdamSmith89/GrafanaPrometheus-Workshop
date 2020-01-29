@@ -3,10 +3,9 @@
 @snapend
 
 @snap[span-100 midpoint text-09]
-### CHECK THESE LINKS
 - Copy Prometheus to test environment
   - @css[hl-westside](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
-  - @css[hl-westside](Mac:) macos/prometheus-2.15.2.darwin-amd64.tar.gz
+  - @css[hl-westside](Mac:) darwin/prometheus-2.15.2.darwin-amd64.tar.gz
   - @css[hl-westside](Linux:) linux/prometheus-2.15.2.linux-amd64.tar.gz
 - Extract the @css[hl-westside](.gz) then the @css[hl-westside](.tar)
 - Run @css[hl-westside](prometheus(.exe&#41;)
