@@ -18,12 +18,19 @@ Note:
 
 ---
 @snap[north span-100]
-### What Are We Solving?
+### Why These Technologies?
 @snapend
 
-@snap[midpoint span-100 text-09]
-- Aggregating data in the same place
-- Consistent view of data from different sources
+@snap[north]
+@box[](Aggregate data from different sources)
+@snapend
+
+@snap[midpoint]
+@box[](Display results in a consistent format)
+@snapend
+
+@snap[south]
+@box[](Popular, open-source, tools in the community )
 @snapend
 
 Note:
