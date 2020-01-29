@@ -29,7 +29,7 @@ Note:
 @box[bg-gold text-white rounded box-padding](Display results in a consistent format)
 @snapend
 
-@snap[south span-35]
+@snap[east span-35]
 @box[bg-gold text-white rounded box-padding](Popular, open-source, tools in the community )
 @snapend
 
