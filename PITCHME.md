@@ -22,7 +22,8 @@ Note:
 @snapend
 
 @snap[midpoint span-100 text-09]
-- 
+- Aggregating data in the same place
+- Consistent view of data from different sources
 @snapend
 
 Note:

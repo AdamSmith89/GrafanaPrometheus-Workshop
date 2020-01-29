@@ -72,9 +72,9 @@ Note:
 @snap[span-100 midpoint text-09]
 - @css[hl-westside](Remaining time) to play with panels
 - Ideas;
-  - Use @css[hl-westside](colour) to show success/failure on Sonarqube panel
+  - Use @css[hl-westside](colour) to show pass/fail on Sonarqube panel
   - Show @css[hl-westside](words) in-place of @css[hl-westside](values)
-  - Create a @css[hl-westside](panel) which shows the @css[hl-westside](project) which has the most @css[hl-westside](Sonarqube bugs)
+  - Show the @css[hl-westside](project) which has the most @css[hl-westside](Sonarqube bugs)
     - Hint, @css[hl-westside](topk) and @css[hl-westside](sort_desc)
 @snapend
 
