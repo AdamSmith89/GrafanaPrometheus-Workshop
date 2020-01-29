@@ -21,15 +21,15 @@ Note:
 ### Why These Technologies?
 @snapend
 
-@snap[west span-35]
-@box[bg-gold text-white rounded box-padding](Aggregate data from different sources)
+@snap[west span-30 fragment]
+@box[bg-gold text-white rounded box-padding](Aggregate data from many sources)
 @snapend
 
-@snap[midpoint span-35]
+@snap[midpoint span-30 fragment]
 @box[bg-gold text-white rounded box-padding](Display results in a consistent format)
 @snapend
 
-@snap[east span-35]
+@snap[east span-30 fragment]
 @box[bg-gold text-white rounded box-padding](Popular, open-source, tools in the community )
 @snapend
 
