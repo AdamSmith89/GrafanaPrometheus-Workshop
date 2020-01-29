@@ -11,6 +11,9 @@
   - Exporter will keep running if there are no errors
 @snapend
 
+Note:
+- Jack
+
 ---
 @snap[north span-100]
 ### Sonarqube Metrics

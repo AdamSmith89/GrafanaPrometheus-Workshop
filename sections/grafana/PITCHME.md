@@ -14,6 +14,9 @@
   - Grafana will keep running if there are no errors
 @snapend
 
+Note:
+- Adam
+
 ---
 @snap[north span-100]
 ### Grafana Data Source
@@ -63,15 +66,16 @@
 
 ---
 @snap[north span-100]
-### Free Play
+### Free Play / Questions
 @snapend
 
 @snap[span-100 midpoint text-09]
 - @css[hl-westside](Remaining time) to play with panels
 - Ideas;
-  - Add @css[hl-westside](Thresholds) to Sonarqube panel
-  - Use @css[hl-westside](Value Mappings) on Sonarqube panel
-  - Apply a @css[hl-westside](rate) function to Prometheus panel
+  - Use @css[hl-westside](colour) to show success/failure on Sonarqube panel
+  - Show @css[hl-westside](words) in-place of @css[hl-westside](values)
+  - Create a @css[hl-westside](panel) which shows the @css[hl-westside](project) which has the most @css[hl-westside](Sonarqube bugs)
+    - Hint, @css[hl-westside](topk) and @css[hl-westside](sort_desc)
 @snapend
 
 @snap[south span-100 text-05]

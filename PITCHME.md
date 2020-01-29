@@ -3,9 +3,6 @@ Dashboards
 @snapend
 @css[text-white text-italic text-20](Prometheus and Grafana)
 
-Note:   
-- any notes?
-
 ---
 @snap[north span-100]
 ### Resources
@@ -15,6 +12,21 @@ Note:
 Resources: @css[hl-westside](S:\Development\DashboardResources)
 Slides: @css[hl-westside]([https://gitpitch.com/AdamSmith89/<wbr>GrafanaPrometheus-Workshop]())
 @snapend
+
+Note:
+- Adam
+
+---
+@snap[north span-100]
+### What Are We Solving?
+@snapend
+
+@snap[midpoint span-100 text-09]
+- 
+@snapend
+
+Note:
+- Adam
 
 ---?include=sections/prometheus/PITCHME.md
 ---?include=sections/exporters/PITCHME.md

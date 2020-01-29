@@ -3,14 +3,18 @@
 @snapend
 
 @snap[span-100 midpoint text-09]
+### CHECK THESE LINKS
 - Copy Prometheus to test environment
   - @css[hl-westside](Windows:) windows/prometheus-2.14.0.windows-amd64.tar.gz
-  - @css[hl-westside](Mac:) darwin/prometheus-2.15.2.darwin-amd64.tar.gz
-  - @css[hl-westside](Linux:) darwin/prometheus-2.15.2.linux-amd64.tar.gz
+  - @css[hl-westside](Mac:) macos/prometheus-2.15.2.darwin-amd64.tar.gz
+  - @css[hl-westside](Linux:) linux/prometheus-2.15.2.linux-amd64.tar.gz
 - Extract the @css[hl-westside](.gz) then the @css[hl-westside](.tar)
 - Run @css[hl-westside](prometheus(.exe&#41;)
   - Prometheus will keep running if there are no errors
 @snapend
+
+Note:
+- Jack
 
 ---
 @snap[north span-100]
@@ -28,6 +32,9 @@
 @snap[south span-70 move-down-10]
 @img[](assets/img/prometheus-query.png)
 @snapend
+
+Note:
+- Jack
 
 ---
 @snap[north span-100]
@@ -47,6 +54,7 @@
 @snapend
 
 Note:
+- Adam
 - Different jobs in Prometheus example; e.g. job="vsts" or job="sonarqube"
 
 ---
@@ -78,3 +86,6 @@ scrape_configs:
 @[12-13](Jobs define a single endpoint to scrape for data)
 @[14-15](Targets define Where the data is gathered from)
 @snapend
+
+Note:
+- Adam
