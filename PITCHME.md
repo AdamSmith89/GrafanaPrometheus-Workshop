@@ -21,16 +21,16 @@ Note:
 ### Why These Technologies?
 @snapend
 
-@snap[north]
-@box[](Aggregate data from different sources)
+@snap[west span-35]
+@box[bg-gold text-white rounded box-padding](Aggregate data from different sources)
 @snapend
 
-@snap[midpoint]
-@box[](Display results in a consistent format)
+@snap[midpoint span-35]
+@box[bg-gold text-white rounded box-padding](Display results in a consistent format)
 @snapend
 
-@snap[south]
-@box[](Popular, open-source, tools in the community )
+@snap[south span-35]
+@box[bg-gold text-white rounded box-padding](Popular, open-source, tools in the community )
 @snapend
 
 Note:
