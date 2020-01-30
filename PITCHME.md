@@ -51,6 +51,8 @@ Note:
 [Querying Functions](https://prometheus.io/docs/prometheus/latest/querying/functions/)<br>
 [Query Examples](https://prometheus.io/docs/prometheus/latest/querying/examples/)<br>
 [Prometheus Exporters](https://prometheus.io/docs/instrumenting/exporters/)<br>
+[More Exporters](https://github.com/prometheus/prometheus/wiki/Default-port-allocations)<br>
+[Azure DevOps Exporter](https://github.com/webdevops/azure-devops-exporter)<br>
 [Grafana Getting Started](https://grafana.com/docs/grafana/latest/guides/getting_started/)<br>
 [Wizzy (Grafana -> Git)](https://grafana-wizzy.com/home/)
 
